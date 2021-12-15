@@ -1,0 +1,42 @@
+# github.com/briandowns/spinner v1.16.0
+## explicit; go 1.14
+github.com/briandowns/spinner
+# github.com/fatih/color v1.7.0
+## explicit
+github.com/fatih/color
+# github.com/go-rod/rod v0.101.8
+## explicit; go 1.16
+github.com/go-rod/rod
+github.com/go-rod/rod/lib/assets
+github.com/go-rod/rod/lib/cdp
+github.com/go-rod/rod/lib/defaults
+github.com/go-rod/rod/lib/devices
+github.com/go-rod/rod/lib/input
+github.com/go-rod/rod/lib/js
+github.com/go-rod/rod/lib/launcher
+github.com/go-rod/rod/lib/launcher/flags
+github.com/go-rod/rod/lib/proto
+github.com/go-rod/rod/lib/utils
+# github.com/go-rod/stealth v0.4.4
+## explicit; go 1.15
+github.com/go-rod/stealth
+# github.com/mattn/go-colorable v0.1.2
+## explicit
+github.com/mattn/go-colorable
+# github.com/mattn/go-isatty v0.0.8
+## explicit
+github.com/mattn/go-isatty
+# github.com/ysmood/goob v0.3.0
+## explicit; go 1.15
+github.com/ysmood/goob
+# github.com/ysmood/gson v0.6.4
+## explicit; go 1.15
+github.com/ysmood/gson
+# github.com/ysmood/leakless v0.7.0
+## explicit; go 1.15
+github.com/ysmood/leakless
+github.com/ysmood/leakless/pkg/shared
+github.com/ysmood/leakless/pkg/utils
+# golang.org/x/sys v0.0.0-20190222072716-a9d3bda3a223
+## explicit
+golang.org/x/sys/unix
