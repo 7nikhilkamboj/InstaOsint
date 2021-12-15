@@ -90,7 +90,7 @@ func Topsearches(intercookie string, args string) ([]UserDetails, error) {
 }
 
 func GetLogin(intercookie string, pk interface{}) UserDetails {
-	// url := "https://www.instagram.com/virat.kohli/?__a=1"
+
 	info := "https://i.instagram.com/api/v1/users/" + pk.(string) + "/info/"
 	method := "GET"
 	var userdata map[string]interface{}
@@ -120,8 +120,6 @@ func GetLogin(intercookie string, pk interface{}) UserDetails {
 	d := userdata["user"]
 
 	da := d.(map[string]interface{})["pk"].(float64) // Conversion of userid to roundInt
-
-	// complData = append(complData, conversion.RoundInt(da), d.(map[string]interface{})["username"], conversion.NearestThousandFormat(d.(map[string]interface{})["follower_count"].(float64)), conversion.NearestThousandFormat(d.(map[string]interface{})["following_count"].(float64)), d.(map[string]interface{})["full_name"], d.(map[string]interface{})["profile_pic_url"], d.(map[string]interface{})["biography"], d.(map[string]interface{})["media_count"], d.(map[string]interface{})["is_verified"])
 
 	userdetail.Pk = conversion.RoundInt(da)
 	userdetail.Username = d.(map[string]interface{})["username"]

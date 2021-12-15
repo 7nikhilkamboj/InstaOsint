@@ -52,7 +52,7 @@ func resp(w http.ResponseWriter, r *http.Request) {
 
 	if conf["username"] == "" && conf["password"] == "" {
 		fmt.Print("\n")
-		fmt.Println("Error while reading the username and password from configuration File !!!! Please enter the configuration correctly then execute program again.")
+		fmt.Println("Error while reading the username and password from configuration File !!!! Please enter the configuration correctly and build program again using go build or (go run .) to execute program.")
 		fmt.Print("\n")
 		os.Exit(1)
 	} else {
