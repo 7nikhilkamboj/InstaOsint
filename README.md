@@ -14,7 +14,7 @@ Install the dependencies and devDependencies and start the server.
 ```sh
   git clone https://github.com/7nikhilkamboj/InstaOsint.git
   cd InstaOsint
-  git mod vendor
+  go mod vendor
   go run . Or go build(that will generate the exe or bash file depends on machine which OS are you using)
 ```
 
